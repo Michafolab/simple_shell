@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * error_env - error message for env in get_env.
+ * error_env - in get_env error message.
  * @datash: data relevant (counter, arguments)
- * Return: error message.
+ * Return: error message may not be returned.
  */
 char *error_env(data_shell *datash)
 {
@@ -36,10 +36,10 @@ char *error_env(data_shell *datash)
 	return (error);
 }
 /**
- * error_path_126 - error message for path and failure denied permission.
+ * error_path_126 - The path and failure error message denied permission.
  * @datash: data relevant (counter, arguments).
  *
- * Return: The error string.
+ * Return: The error string may be returned.
  */
 char *error_path_126(data_shell *datash)
 {
