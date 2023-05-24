@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * data: This data has a free structure
+ * free_data - frees data structure
  *
  * @datash: data structure
- * Return: This data may not be returned in the environment
+ * Return: no return
  */
 void free_data(data_shell *datash)
 {
@@ -20,11 +20,11 @@ void free_data(data_shell *datash)
 }
 
 /**
- * set_data - The data structure should be initialized
+ * set_data - Initialize data structure
  *
  * @datash: data structure
  * @av: argument vector
- * Return: The set data may not be returned in the environment
+ * Return: no return
  */
 void set_data(data_shell *datash, char **av)
 {
@@ -51,12 +51,12 @@ void set_data(data_shell *datash, char **av)
 }
 
 /**
- * main - This is the main entry point to the code
+ * main - Entry point
  *
  * @ac: argument count
  * @av: argument vector
  *
- * Return: 0 on successful coding.
+ * Return: 0 on success.
  */
 int main(int ac, char **av)
 {
