@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * repeated_char - counts the repetitions of a char
+ * repeated_char - The repetitions of a char is counted
  *
  * @input: input string
  * @i: index
- * Return: repetitions
+ * Return: repetitions should not be returned
  */
 int repeated_char(char *input, int i)
 {
@@ -16,12 +16,12 @@ int repeated_char(char *input, int i)
 }
 
 /**
- * error_sep_op - finds syntax errors
+ * error_sep_op - This function finds the syntax errors in the environment
  *
  * @input: input string
  * @i: index
  * @last: last char read
- * Return: index of error. 0 when there are no
+ * Return: The index of error. 0 when there is none
  * errors
  */
 int error_sep_op(char *input, int i, char last)
@@ -69,11 +69,11 @@ int error_sep_op(char *input, int i, char last)
 }
 
 /**
- * first_char - finds index of the first char
+ * first_char - This function finds the index of the first char
  *
  * @input: input string
  * @i: index
- * Return: 1 if there is an error. 0 in other case.
+ * Return: if there is an error, return 1. 0 if none.
  */
 int first_char(char *input, int *i)
 {
@@ -93,13 +93,13 @@ int first_char(char *input, int *i)
 }
 
 /**
- * print_syntax_error - prints when a syntax error is found
+ * print_syntax_error - This function prints a syntax error when any is found
  *
  * @datash: data structure
  * @input: input string
  * @i: index of the error
  * @bool: to control msg error
- * Return: no return
+ * Return: no return may be allowed
  */
 void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 {
@@ -146,12 +146,12 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 }
 
 /**
- * check_syntax_error - intermediate function to
+ * check_syntax_error - This is the intermediate function to
  * find and print a syntax error
  *
  * @datash: data structure
  * @input: input string
- * Return: 1 if there is an error. 0 in other case
+ * Return: if there is an error, return 1. 0 if not
  */
 int check_syntax_error(data_shell *datash, char *input)
 {
