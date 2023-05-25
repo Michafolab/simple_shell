@@ -1,8 +1,7 @@
 # simple_shell
-C - Simple Shell  (C Group project Syscall)
+C - Simple Shell  (C Group project Syscall)  (https://github.com/Michafolab/simple_shell/assets/117805721/34606566-3b0d-4d32-a7e2-fbf368dbf801)
 
-![image](https://github.com/Michafolab/simple_shell/assets/117805721/0a48d5e2-1b9b-4f23-8428-fa429a2c7c36) ![image](https://github.com/Michafolab/simple_shell/assets/117805721/34606566-3b0d-4d32-a7e2-fbf368dbf801)
-
+![image](https://github.com/Michafolab/simple_shell/assets/117805721/0a48d5e2-1b9b-4f23-8428-fa429a2c7c36) ![image]
 
 
 simple_shell (ssh)
