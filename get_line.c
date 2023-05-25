@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * bring_line - assigns the line var for get_line
+ * bring_line - This function brings the var line for get_line
  * @lineptr: Buffer that store the input str
  * @buffer: str that is been called to line
  * @n: size of line
- * @j: size of buffer
+ * @j: buffer size
  */
 void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
 {
@@ -34,11 +34,11 @@ void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
 	}
 }
 /**
- * get_line - Read inpt from stream
+ * get_line - This function reads the inpt from the stream
  * @lineptr: buffer that stores the input
  * @n: size of lineptr
  * @stream: stream to read from
- * Return: The number of bytes
+ * Return:Number of bytes should be returned
  */
 ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 {
