@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * _memcpy - copies information between void pointers.
+ * _memcpy - This code copies the information between void pointers.
  * @newptr: destination pointer.
  * @ptr: source pointer.
  * @size: size of the new pointer.
  *
- * Return: no return.
+ * Return: no return may be allowed.
  */
 void _memcpy(void *newptr, const void *ptr, unsigned int size)
 {
@@ -19,14 +19,14 @@ void _memcpy(void *newptr, const void *ptr, unsigned int size)
 }
 
 /**
- * _realloc - reallocates a memory block.
+ * _realloc - The memory block code is reallocated.
  * @ptr: pointer to the memory previously allocated.
  * @old_size: size, in bytes, of the allocated space of ptr.
  * @new_size: new size, in bytes, of the new memory block.
  *
  * Return: ptr.
  * if new_size == old_size, returns ptr without changes.
- * if malloc fails, returns NULL.
+ * return NULL if malloc fails.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -58,14 +58,14 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * _reallocdp - reallocates a memory block of a double pointer.
+ * _reallocdp - The memory block of a double pointer is reallocated.
  * @ptr: double pointer to the memory previously allocated.
  * @old_size: size, in bytes, of the allocated space of ptr.
  * @new_size: new size, in bytes, of the new memory block.
  *
  * Return: ptr.
  * if new_size == old_size, returns ptr without changes.
- * if malloc fails, returns NULL.
+ * Returns NULL if malloc fails.
  */
 char **_reallocdp(char **ptr, unsigned int old_size, unsigned int new_size)
 {
