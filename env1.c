@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * cmp_env_name - compares env variables names
+ * cmp_env_name - The env variables names are compared by this function
  * with the name passed.
  * @nenv: name of the environment variable
  * @name: name passed
  *
- * Return: 0 if are not equal. Another value if they are.
+ * Return: if they are not equal, return 0. Another number if they are.
  */
 int cmp_env_name(const char *nenv, const char *name)
 {
@@ -24,12 +24,12 @@ int cmp_env_name(const char *nenv, const char *name)
 }
 
 /**
- * _getenv - get an environment variable
+ * _getenv - This function helps to get the environment variable
  * @name: name of the environment variable
  * @_environ: environment variable
  *
- * Return: value of the environment variable if is found.
- * In other case, returns NULL.
+ * Return: return the number of the environment variable if it is found.
+ * In other case, NULL must be returned.
  */
 char *_getenv(const char *name, char **_environ)
 {
@@ -56,10 +56,10 @@ char *_getenv(const char *name, char **_environ)
 }
 
 /**
- * _env - prints the evironment variables
+ * _env - The evironment variables is printed by this function
  *
  * @datash: data relevant.
- * Return: 1 on success.
+ * Return: on success, return 1.
  */
 int _env(data_shell *datash)
 {
