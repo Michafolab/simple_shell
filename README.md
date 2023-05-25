@@ -1,14 +1,13 @@
-# simple_shell
-C - Simple Shell  (C Group project Syscall)  (https://github.com/Michafolab/simple_shell/assets/117805721/34606566-3b0d-4d32-a7e2-fbf368dbf801)
-
-![image](https://github.com/Michafolab/simple_shell/assets/117805721/0a48d5e2-1b9b-4f23-8428-fa429a2c7c36) ![image]
+# simple_shell ! ![image](https://github.com/Michafolab/simple_shell/assets/117805721/fe7470f6-89aa-4147-addf-dbf070a400ce)
 
 
-simple_shell (ssh)
-![image](https://github.com/Michafolab/simple_shell/assets/117805721/f9b57632-a106-4d1b-840d-b8b0c8385de6)
+C - Simple Shell  (C Group project Syscall)  ![image](https://github.com/Michafolab/simple_shell/assets/117805721/3c7f3bdf-ef8c-4bf9-aa1f-2ca237ac82a4)
 
 
-![image](https://github.com/Michafolab/simple_shell/assets/117805721/508a74af-ea51-4b4d-a1c8-505cf9af4254)
+simple_shell (ssh) ![image](https://github.com/Michafolab/simple_shell/assets/117805721/e2893cdf-54b9-4e4d-a9aa-cbc02976dc9e)
+
+
+
 
 
 command interpreter (shell)
