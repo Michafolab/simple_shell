@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * check_env - checks if the typed variable is an env variable
+ * check_env - The typed variable in an env variable is checked by this function
  *
  * @h: head of linked list
  * @in: input string
  * @data: data structure
- * Return: no return
+ * Return: no return may be allowed
  */
 void check_env(r_var **h, char *in, data_shell *data)
 {
@@ -42,13 +42,13 @@ void check_env(r_var **h, char *in, data_shell *data)
 }
 
 /**
- * check_vars - check if the typed variable is $$ or $?
+ * check_vars - if the typed variable is $$ or $, this function checks
  *
  * @h: head of the linked list
  * @in: input string
  * @st: last status of the Shell
  * @data: data structure
- * Return: no return
+ * Return: no return may be allowed
  */
 int check_vars(r_var **h, char *in, char *st, data_shell *data)
 {
@@ -84,7 +84,7 @@ int check_vars(r_var **h, char *in, char *st, data_shell *data)
 }
 
 /**
- * replaced_input - replaces string into variables
+ * replaced_input - The string is replaced into variables by this function
  *
  * @head: head of the linked list
  * @input: input string
@@ -136,7 +136,7 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 }
 
 /**
- * rep_var - calls functions to replace string into vars
+ * rep_var - This calls the functionfor strings to be replaced into vars
  *
  * @input: input string
  * @datash: data structure
