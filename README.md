@@ -8,6 +8,7 @@
 **NAME**
 **simple_shell (ssh)
 
+
 **
 **command interpreter (shell)**
 
@@ -20,6 +21,7 @@ simple_shell is Public Domain, no copyright protection
 
 
 **DESCRIPTION**
+
 simple_shell replicates a command line interpreter (a shell), which is a user interface program for access to an operating system's services. This shell is designed to interact with a linux distribution or unix like system that uses linux system calls and other commands found in the linux PATH, for example, the $PATH:
 
 
@@ -29,14 +31,18 @@ simple_shell has a set of custom built-in commands, and also integrates with oth
 
 **$ man dash**
   simple_shell \
+  
 takes commands from files, shell scripts or user input in either an interactive or non-interactive mode (explained in INVOCATION section).
 
 **
+
 INVOCATION**
+
 To initialize simple_shell, you must compile all the included files using the GNU compiler collection: gcc. Then run the output file, with a command such as this:
 
 **
 $ ./a.out.**  
+
 simple_shell has been written to pass all of these warning checks and was designed to be compiled with the following command:
 
 **
@@ -69,33 +75,40 @@ removes environmental variable. example: 'unsetenv USER'
 writes history to stdout
 **
 
-exit**
+**exit****
+
 exits simple_shell
 
-**cd**
+****cd****
+
 changes working directory
 
 
-**help**
+******help******
+
 used with another command prints help message. example: 'help env'
 
 
 **alias**
+
 creates an alias. example 'alias ll='ls -la''
 
 
 **unalias**
+
 removes an alias. example 'unalias ll'
 
 
 **"SEE ALSO"**
+
 sh (1), bash (1),
 
 
 **BUGS**
+
 none known. simple_shell does not currently replicate these tasks:
 
 
 **AUTHORS**
-Soji Afinjuomo afinjuomosoji@gmail.com
-Muri Badmus amurtala@gmail.com
+MICHAEL TEMITOPE AFOLABI
+CHIOMA VICTORIAL NNADI
