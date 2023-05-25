@@ -17,19 +17,19 @@
 #define TOK_BUFSIZE 128
 #define TOK_DELIM " \t\r\n\a"
 
-/* Points to an array of pointers to strings called the "environment" */
+/* This points to strings of an array of pinters called the "environment" */
 extern char **environ;
 
 
 /**
- * struct data - struct that contains all relevant data on runtime
+ * struct data - All the relevant data on runtime is contained in a struct
  * @av: argument vector
  * @input: command line written by the user
  * @args: tokens of the command line
  * @status: last status of the shell
  * @counter: lines counter
  * @_environ: environment variable
- * @pid: process ID of the shell
+ * @pid: The shell process ID
  */
 typedef struct data
 {
@@ -43,10 +43,10 @@ typedef struct data
 } data_shell;
 
 /**
- * struct sep_list_s - single linked list
+ * struct sep_list_s - The linked list single
  * @separator: ; | &
  * @next: next node
- * Description: single linked list to store separators
+ * Description: This function is used by single linked list to store separators
  */
 typedef struct sep_list_s
 {
@@ -55,10 +55,10 @@ typedef struct sep_list_s
 } sep_list;
 
 /**
- * struct line_list_s - single linked list
+ * struct line_list_s - The linked list single
  * @line: command line
  * @next: next node
- * Description: single linked list to store command lines
+ * Description: This function is used by single linked list to store the lines of command
  */
 typedef struct line_list_s
 {
@@ -67,12 +67,12 @@ typedef struct line_list_s
 } line_list;
 
 /**
- * struct r_var_list - single linked list
+ * struct r_var_list - The linked list single
  * @len_var: length of the variable
  * @val: value of the variable
  * @len_val: length of the value
  * @next: next node
- * Description: single linked list to store variables
+ * Description: This function is used by single linked list to store variables
  */
 typedef struct r_var_list
 {
@@ -83,9 +83,9 @@ typedef struct r_var_list
 } r_var;
 
 /**
- * struct builtin_s - Builtin struct for command args.
+ * struct builtin_s - The function is used by Builtin struct for comand args.
  * @name: The name of the command builtin i.e cd, exit, env
- * @f: data type pointer function.
+ * @f: pointer function of data type.
  */
 typedef struct builtin_s
 {
