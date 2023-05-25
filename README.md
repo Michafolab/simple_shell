@@ -1,9 +1,11 @@
-C - Simple Shell (C Group project  Syscall)  
+**C - Simple Shell (C Group project  Syscall) ** ![image](https://github.com/Michafolab/simple_shell/assets/117805721/cb186835-8d97-4c22-b969-e19ab2a0accf)
+![image](https://github.com/Michafolab/simple_shell/assets/117805721/04fc43e9-f172-4cc9-be39-10149371df3c)
+ 
 
 command interpreter (shell)
+
 SYNOPSIS
 ./ssh
-
 
 COPYRIGHT
 simple_shell is Public Domain, no copyright protection
