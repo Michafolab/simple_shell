@@ -5,66 +5,97 @@
 ![image](https://github.com/Michafolab/simple_shell/assets/117805721/04fc43e9-f172-4cc9-be39-10149371df3c)
  
 
-command interpreter (shell)
+**NAME**
+**simple_shell (ssh)
 
-SYNOPSIS
+**
+**command interpreter (shell)**
+
+**SYNOPSIS**
 ./ssh
 
-COPYRIGHT
+
+**COPYRIGHT**
 simple_shell is Public Domain, no copyright protection
 
 
-DESCRIPTION
+**DESCRIPTION**
 simple_shell replicates a command line interpreter (a shell), which is a user interface program for access to an operating system's services. This shell is designed to interact with a linux distribution or unix like system that uses linux system calls and other commands found in the linux PATH, for example, the $PATH:
 
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
+
+**/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:**
 simple_shell has a set of custom built-in commands, and also integrates with other commands located in the system's PATH. The output is designed to exactly or to closely replicate the shell 'sh' or 'dash'as possible.
 
 
-$ man dash
+**$ man dash**
   simple_shell \
 takes commands from files, shell scripts or user input in either an interactive or non-interactive mode (explained in INVOCATION section).
 
-
-INVOCATION
+**
+INVOCATION**
 To initialize simple_shell, you must compile all the included files using the GNU compiler collection: gcc. Then run the output file, with a command such as this:
 
-$ ./a.out.  
+**
+$ ./a.out.**  
 simple_shell has been written to pass all of these warning checks and was designed to be compiled with the following command:
 
- $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+**
+ $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh**
 If simple_shell is executed, it will initialize in what is considered 'interactive mode.' In this scenario, the user is prompted for a command and then the command is executed after the newline or 'enter' is input. simple_shell can also function in non-interactive mode by using shell scripts, such as a '|' before the simple_shell executable file ('ssh'). This is an example:
 
- $ echo 'ls' | ./hsh
+
+** $ echo 'ls' | ./hsh**
 Commands may also be input into simple_shell through a file containing commands:
 
- $ cat aFile | ./hsh
-OPTIONS
+
+** $ cat aFile | ./hsh******
+**OPTIONS**
 simple_shell does not take any options
 
-BUILT-IN COMMANDS
+**
+BUILT-IN COMMANDS**
 This section has information on the included builtin commands with simple_shell
 
-env
+**env**
 writes environment to stdout
-setenv
+
+**setenv**
 sets or changes an environmental variable. example: 'setenv USER=bobby'
-unsetenv
+
+**unsetenv**
 removes environmental variable. example: 'unsetenv USER'
-history
+
+**history**
 writes history to stdout
-exit
+**
+
+exit**
 exits simple_shell
-cd
+
+**cd**
 changes working directory
-help
+
+
+**help**
 used with another command prints help message. example: 'help env'
-alias
+
+
+**alias**
 creates an alias. example 'alias ll='ls -la''
-unalias
+
+
+**unalias**
 removes an alias. example 'unalias ll'
-"SEE ALSO"
+
+
+**"SEE ALSO"**
 sh (1), bash (1),
 
-BUGS
+
+**BUGS**
 none known. simple_shell does not currently replicate these tasks:
+
+
+**AUTHORS**
+Soji Afinjuomo afinjuomosoji@gmail.com
+Muri Badmus amurtala@gmail.com
