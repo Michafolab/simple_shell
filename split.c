@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * swap_char - swaps | and & for non-printed chars
+ * swap_char - This function swaps | and & for non-printed chars
  *
  * @input: input string
  * @bool: type of swap
@@ -44,12 +44,12 @@ char *swap_char(char *input, int bool)
 }
 
 /**
- * add_nodes - add separators and command lines in the lists
+ * add_nodes - In the lists, the separators and command lines are added by this function
  *
  * @head_s: head of separator list
  * @head_l: head of command lines list
  * @input: input string
- * Return: no return
+ * Return: no return may be allowed
  */
 void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 {
@@ -80,12 +80,12 @@ void add_nodes(sep_list **head_s, line_list **head_l, char *input)
 }
 
 /**
- * go_next - go to the next command line stored
+ * go_next - Let this got to the next command line that is stored
  *
  * @list_s: separator list
  * @list_l: command line list
  * @datash: data structure
- * Return: no return
+ * Return: no return may be allowed
  */
 void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
 {
@@ -122,12 +122,12 @@ void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
 }
 
 /**
- * split_commands - splits command lines according to
+ * split_commands - Comman line is splited according to
  * the separators ;, | and &, and executes them
  *
  * @datash: data structure
  * @input: input string
- * Return: 0 to exit, 1 to continue
+ * Return: 1 to proceed, 0 to exit
  */
 int split_commands(data_shell *datash, char *input)
 {
@@ -169,10 +169,10 @@ int split_commands(data_shell *datash, char *input)
 }
 
 /**
- * split_line - tokenizes the input string
+ * split_line - The input string is tokenized
  *
  * @input: input string.
- * Return: string splitted.
+ * Return: string splitted may be returned.
  */
 char **split_line(char *input)
 {
