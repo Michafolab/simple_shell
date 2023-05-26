@@ -1,13 +1,13 @@
 #include "shell.h"
 
 /**
- * strcat_cd - The message of the cd error is concatenated by this function
+ * strcat_cd - This function that concatenates the message for cd error
  *
  * @datash: data relevant (directory)
  * @msg: message to print
  * @error: output message
  * @ver_str: counter lines
- * Return: error message is allowed
+ * Return: error message
  */
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
@@ -39,9 +39,9 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 }
 
 /**
- * error_get_cd - In get_cd, this is the error message for the cd command
+ * error_get_cd - error message for cd command in get_cd
  * @datash: data relevant (directory)
- * Return: Error message may be allowed
+ * Return: Error message
  */
 char *error_get_cd(data_shell *datash)
 {
@@ -78,9 +78,9 @@ char *error_get_cd(data_shell *datash)
 }
 
 /**
- * error_not_found - The generic error message for this command was not found
+ * error_not_found - generic error message for command not found
  * @datash: data relevant (counter, arguments)
- * Return: Error message may be allowed
+ * Return: Error message
  */
 char *error_not_found(data_shell *datash)
 {
@@ -110,10 +110,10 @@ char *error_not_found(data_shell *datash)
 }
 
 /**
- * error_exit_shell - In get_exit, this is the generic error message for exit
+ * error_exit_shell - generic error message for exit in get_exit
  * @datash: data relevant (counter, arguments)
  *
- * Return: Error message may be allowed
+ * Return: Error message
  */
 char *error_exit_shell(data_shell *datash)
 {
