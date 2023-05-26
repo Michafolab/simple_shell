@@ -4,7 +4,7 @@
  * is_cdir - if ":" is in the current directory, this functions checks for it.
  * @path: type char pointer char.
  * @i: type int pointer of index.
- * Return: 1 should be returned if the path is searchable in the cd, 0 if not.
+ * Return: 1  returned if the path is searchable in the cd, 0 if not.
  */
 int is_cdir(char *path, int *i)
 {
@@ -23,7 +23,7 @@ int is_cdir(char *path, int *i)
 }
 
 /**
- * _which - This functions locates a command in this environment
+ * _which -  functions locates a command in this environment
  *
  * @cmd: command name
  * @_environ: environment variable
