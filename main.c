@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * free_data - frees data structure
+ * free_data - This include freezing the data structure
  *
- * @datash: data structure
+ * @datash: data structure arrangement
  * Return: no return
  */
 void free_data(data_shell *datash)
