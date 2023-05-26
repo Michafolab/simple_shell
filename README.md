@@ -12,7 +12,7 @@
 
 
 
-**
+****************************************************************************************************************************************************
 **command interpreter (shell)**
 
 **SYNOPSIS**
@@ -45,7 +45,7 @@ simple_shell has a set of custom built-in commands, and also integrates with oth
   
 takes commands from files, shell scripts or user input in either an interactive or non-interactive mode (explained in INVOCATION section).
 
-**
+**********************************************************************************************
 
 
 INVOCATION**
@@ -61,7 +61,7 @@ simple_shell has been written to pass all of these warning checks and was design
 
 
 
-****
+******************************************************************************************************************
  $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh****
  
  
