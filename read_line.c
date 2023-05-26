@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * read_line - This function reads the string of the input.
+ * read_line - reads the input of the string iputed by the user.
  *
  * @i_eof: return value of getline function
- * Return: The string of the input should be returned in this environment
+ * Return: input string
  */
 char *read_line(int *i_eof)
 {
