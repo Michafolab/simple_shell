@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * error_env - In get_env, this is the error message for env.
+ * error_env - In get_env, this is the error message for env
  * @datash: data relevant (counter, arguments)
- * Return: The error message may be allowed.
+ * Return: The error message may be allowed
  */
 char *error_env(data_shell *datash)
 {
