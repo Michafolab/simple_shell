@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * check_env - The typed variable in an env variable is checked by this function
+ * check_env - The is an env variable is checked by this function
  *
  * @h: head of linked list
  * @in: input string
