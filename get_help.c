@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * get_help - This function retrieves the help messages according to the builtin
- * @datash: data structure (args and input)
+ * get_help - function retrieves the help messages according to the builtin
+ * @datash:  (args and input)
  * Return: Return 0 if on success
 */
 int get_help(data_shell *datash)
