@@ -25,7 +25,7 @@ char *_strcat(char *dest, const char *src)
 }
 /**
  * *_strcpy - The string poited to is copied by src.
- * @dest: Type char pointer the dest of the copied str
+ * @dest: Type char pointer the dest 
  * @src: Type char pointer the source of str
  * Return: the dest may be returned.
  */
@@ -79,7 +79,7 @@ char *_strchr(char *s, char c)
 	return ('\0');
 }
 /**
- * _strspn - The length of a prefix substring is gotten by this function.
+ * _strspn - The length of a prefix substring function.
  * @s: initial segment.
  * @accept: accepted bytes.
  * Return: the number of accepted bytes is returned in this environment.
