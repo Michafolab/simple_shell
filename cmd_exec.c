@@ -118,11 +118,11 @@ int is_executable(data_shell *datash)
 }
 
 /**
- * check_error_cmd - checks permissions to access, 
+ * check_error_cmd - checks permissions to access 
  *
  * @dir: destination directory
  * @datash: data structure
- * Return: if there is an error, 1 should be returned and 0 if not
+ * Return: if there is an error 1 and  0 if not
  */
 int check_error_cmd(char *dir, data_shell *datash)
 {
