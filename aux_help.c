@@ -43,7 +43,7 @@ void aux_help_unsetenv(void)
 
 
 /**
- * aux_help_general - This is the entry point for help information for the help builtin
+ * aux_help_general - The entry point for help information for the help builtin
  * Return: no return may not be allowed
  */
 void aux_help_general(void)
@@ -65,11 +65,11 @@ void aux_help_general(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 /**
- * aux_help_exit - The builtin exit help information for the code
+ * aux_help_exit - exit help information for the code
  * Return: no return may not be allowed
  */
 void aux_help_exit(void)
-{
+
 	char *help = "exit: exit [n]\n Exit shell.\n";
 
 	write(STDOUT_FILENO, help, _strlen(help));
