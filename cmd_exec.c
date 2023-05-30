@@ -118,7 +118,7 @@ int is_executable(data_shell *datash)
 }
 
 /**
- * check_error_cmd - if the user has permissions to access, this function verifies it
+ * check_error_cmd - checks permissions to access, 
  *
  * @dir: destination directory
  * @datash: data structure
