@@ -14,7 +14,7 @@ void aux_help_env(void)
 
 }
 /**
- * aux_help_setenv - The builtin setenv help information for this code
+ * aux_help_setenv - The builtin seten
  * Return: no return may not be allowed
  */
 void aux_help_setenv(void)
@@ -29,7 +29,7 @@ void aux_help_setenv(void)
 	write(STDOUT_FILENO, help, _strlen(help));
 }
 /**
- * aux_help_unsetenv - The builtin unsetenv help information for this code
+ * aux_help_unset  unsetenv help information for this code
  * Return: no return may not be allowed
  */
 void aux_help_unsetenv(void)
