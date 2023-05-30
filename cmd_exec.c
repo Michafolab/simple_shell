@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * is_cdir - if ":" is in the current directory, this functions checks for it.
+ * is_cdir - if ":"  this functions checks for it.
  * @path: type char pointer char.
  * @i: type int pointer of index.
  * Return: 1  returned if the path is searchable in the cd, 0 if not.
@@ -73,7 +73,7 @@ char *_which(char *cmd, char **_environ)
 }
 
 /**
- * is_executable - if it is executable, the function determines it
+ * is_executable - if it is executable, function
  *
  * @datash: data structure
  * Return: if it is not executable, return 0 if it does return other number
